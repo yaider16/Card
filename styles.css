@@ -1,0 +1,108 @@
+/* IMPORTS*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+body{
+	background-color: #faff81;
+}
+
+.flex{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.card{
+	margin-top: 100px;
+	background-color: #fff;
+	width: 400px;
+	height: 550px;
+	-webkit-box-shadow: 0px 0px 22px 1px rgba(0,0,0,0.75); 
+	box-shadow: 0px 0px 22px 1px rgba(0,0,0,0.75);
+	border-radius: 5px;
+}
+
+.flex div svg{
+	position: absolute;
+	width: 400px;
+	top: 320px;
+	left: 563px;
+}
+
+.flex div img{
+	object-fit: cover;
+	width: 400px;
+}
+
+.flex div h2{
+	font-family: 'Caveat', cursive;
+	position: absolute;
+	left: 710px;
+	top: 500px;
+	font-size: 33px;
+}
+
+.txt{
+	font-family: 'Dancing Script', cursive;
+	font-size: 23px;
+	position: absolute;
+	left: 640px;
+	top: 465px;
+}
+
+.flex div p{
+	position: absolute;
+	font-size: 35px;
+	left: 640px;
+	top: 375px;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+}
+
+hr{
+	color: #ebebeb;
+	width: 70px;
+}
+
+#uno{
+	position: absolute;
+	top: 540px;
+	left: 625px;
+}
+
+#dos{
+	position: absolute;
+	top: 540px;
+	left: 795px;
+}
+
+.circle{
+	position: absolute;
+	background-color: #04d69d;
+	width: 70px;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 315px;
+	z-index: 3;
+	left: 850px;
+	border-radius: 100px;
+
+}
+
+.circle i{
+	color: #fff;
+	font-size: 25px;
+}
+.stars{
+	position: absolute;
+	top: 590px;
+	left: 690px;
+}
+
+
+.stars i{
+	color: #dfd550;
+}
